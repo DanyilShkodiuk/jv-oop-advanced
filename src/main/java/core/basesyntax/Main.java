@@ -1,7 +1,7 @@
 package core.basesyntax;
 
-import core.basesyntax.Figures.Figure;
-import core.basesyntax.Figures.FigureSupplier;
+import core.basesyntax.figures.Figure;
+import core.basesyntax.figures.FigureSupplier;
 
 public class Main {
     public static void main(String[] args) {

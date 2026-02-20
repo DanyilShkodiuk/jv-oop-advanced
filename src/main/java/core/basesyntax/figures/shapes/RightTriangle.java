@@ -1,13 +1,12 @@
-package core.basesyntax.Figures.Shapes;
+package core.basesyntax.figures.shapes;
 
-import core.basesyntax.Figures.Figure;
+import core.basesyntax.figures.Figure;
 
 public class RightTriangle extends Figure {
     private int firstLeg;
     private int secondLeg;
 
-    public RightTriangle(String color, int firstLeg, int secondLeg)
-    {
+    public RightTriangle(String color, int firstLeg, int secondLeg) {
         super(color);
         this.secondLeg = secondLeg;
         this.firstLeg = firstLeg;
